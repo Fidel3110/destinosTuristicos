@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from proyecto.views import saludo
+from proyecto.views import destinos
 #TUPLA
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo/',saludo),
+    path('destinos/',destinos),
 ]
