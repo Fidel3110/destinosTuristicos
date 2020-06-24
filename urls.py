@@ -19,5 +19,5 @@ from proyecto.views import destinos
 #TUPLA
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('destinos/',destinos),
+    path('destino/',destinos),
 ]
